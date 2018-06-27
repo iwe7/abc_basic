@@ -38,13 +38,11 @@ class Abc_basicModule extends WeModule
         $pars = array();
         $pars[':rid'] = $rid;
         pdo_query($sql, $pars);
-
         foreach ($this->replies as $reply) {
             pdo_insert($this->tablename, array('rid' => $rid, 'content' => $reply['content']));
         }
         return true;
     }
-
     public function ruleDeleted($rid = 0)
     {
         pdo_delete($this->tablename, array('rid' => $rid));

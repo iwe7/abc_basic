@@ -9,40 +9,40 @@
             <![CDATA[abc_basic]]>
         </identifie>
         <version>
-            <![CDATA[5.4.1]]>
+            <![CDATA[5.4.2]]>
         </version>
         <ability>
-            <![CDATA[]]>
+            <![CDATA[新版文字回复]]>
         </ability>
         <type>
             <![CDATA[business]]>
         </type>
         <description>
-            <![CDATA[]]>
+            <![CDATA[新版文字回复]]>
         </description>
         <author>
             <![CDATA[imeepos]]>
         </author>
         <url>
-            <![CDATA[]]>
+            <![CDATA[https://bbs.we7.cc]]>
         </url>
-        <setting>
-            <![CDATA[]]>
-        </setting>
     </application>
     <platform>
         <rule embed="false" />
         <rule embed="false" />
         <supports></supports>
     </platform>
-    <bindings></bindings>
+    <bindings>
+        <entry title="添加" do="add" state="" direct="false" />
+        <entry title="列表" do="list" state="" direct="false" />
+    </bindings>
     <install>
-        <![CDATA[]]>
+        <![CDATA[install.php]]>
     </install>
     <uninstall>
-        <![CDATA[]]>
+        <![CDATA[uninstall.php]]>
     </uninstall>
     <upgrade>
-        <![CDATA[]]>
+        <![CDATA[upgrade.php]]>
     </upgrade>
 </manifest>
