@@ -33,8 +33,10 @@
         <supports></supports>
     </platform>
     <bindings>
-        <entry title="添加" do="add" state="" direct="false" />
-        <entry title="列表" do="list" state="" direct="false" />
+        <menu>
+            <entry title="添加" do="add" state="" direct="false" />
+            <entry title="列表" do="list" state="" direct="false" />
+        </menu>
     </bindings>
     <install>
         <![CDATA[install.php]]>
