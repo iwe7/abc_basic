@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns="http://www.we7.cc" versionCode="">
+    <application setting='false'>
+        <name>
+            <![CDATA[新版文字回复]]>
+        </name>
+        <identifie>
+            <![CDATA[abc_basic]]>
+        </identifie>
+        <version>
+            <![CDATA[5.4.1]]>
+        </version>
+        <ability>
+            <![CDATA[]]>
+        </ability>
+        <type>
+            <![CDATA[business]]>
+        </type>
+        <description>
+            <![CDATA[]]>
+        </description>
+        <author>
+            <![CDATA[imeepos]]>
+        </author>
+        <url>
+            <![CDATA[]]>
+        </url>
+        <setting>
+            <![CDATA[]]>
+        </setting>
+    </application>
+    <platform>
+        <rule embed="false" />
+        <rule embed="false" />
+        <supports></supports>
+    </platform>
+    <bindings></bindings>
+    <install>
+        <![CDATA[]]>
+    </install>
+    <uninstall>
+        <![CDATA[]]>
+    </uninstall>
+    <upgrade>
+        <![CDATA[]]>
+    </upgrade>
+</manifest>
